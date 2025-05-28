@@ -5,7 +5,7 @@ Bu proje, çalışanların şirkette kalıp kalmayacağını (Attrition: Yes/No)
 
 ---
 
-## 📊 Veri Seti
+##  Veri Seti
 
 - Şirket çalışan verileri (demografik bilgiler, iş memnuniyeti, performans ölçütleri vb.)
 - Hedef sütun: **Attrition** (Yes/No, binary sınıf)
@@ -39,7 +39,7 @@ Bu proje, çalışanların şirkette kalıp kalmayacağını (Attrition: Yes/No)
 
 ## CASE2 
 
-# Araç Finansmanı Chatbot
+# 🚀Araç Finansmanı Chatbot
 
 Bu proje, araç finansmanı ön başvurusu ve SSS için chatbot API’sidir. Kullanıcıdan aldığı mesajı vektör tabanlı ChromaDB ile eşleştirir, Ollama LLM kullanarak akıcı yanıt döndürür.
 
@@ -56,31 +56,31 @@ Bu proje, araç finansmanı ön başvurusu ve SSS için chatbot API’sidir. Kul
 
 1. Ortamı oluştur
 
-python -m venv chatbot_env
+-python -m venv chatbot_env
 
 
 2. Ortamı aktifleştir
 
-chatbot_env\Scripts\activate  # Windows
+-chatbot_env\Scripts\activate  # Windows
 
-source chatbot_env/bin/activate  # Linux/macOS
+-source chatbot_env/bin/activate  # Linux/macOS
 
 
 3. Gereksinimleri yükle
 
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 
 4. Embedding verilerini yükle
 
-python db_setup.py
+-python db_setup.py
 
 
 5. Ollama sunucusunu başlat
 
-ollama serve
+-ollama serve
 
 
 6. API’yi başlat
 
-uvicorn app:app --host 0.0.0.0 --port 8000
+-uvicorn app:app --host 0.0.0.0 --port 8000
