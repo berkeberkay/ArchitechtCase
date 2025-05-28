@@ -56,31 +56,31 @@ Bu proje, araç finansmanı ön başvurusu ve SSS için chatbot API’sidir. Kul
 
 1. **Ortamı oluştur**
 
--python -m venv chatbot_env
+  -python -m venv chatbot_env
 
 
 2. **Ortamı aktifleştir**
 
--chatbot_env\Scripts\activate  # Windows
+  -chatbot_env\Scripts\activate  # Windows
 
--source chatbot_env/bin/activate  # Linux/macOS
+  -source chatbot_env/bin/activate  # Linux/macOS
 
 
 3. **Gereksinimleri yükle**
 
--pip install -r requirements.txt
+  -pip install -r requirements.txt
 
 
 4. **Embedding verilerini yükle**
 
--python db_setup.py
+  -python db_setup.py
 
 
-5.** Ollama sunucusunu başlat**
+5.**Ollama sunucusunu başlat**
 
--ollama serve
+  -ollama serve
 
 
 6. **API’yi başlat**
 
--uvicorn app:app --host 0.0.0.0 --port 8000
+  -uvicorn app:app --host 0.0.0.0 --port 8000
