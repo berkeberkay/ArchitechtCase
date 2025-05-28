@@ -54,12 +54,12 @@ Bu proje, araç finansmanı ön başvurusu ve SSS için chatbot API’sidir. Kul
 
 ## Kurulum ve Çalıştırma
 
-1.** Ortamı oluştur**
+1. **Ortamı oluştur**
 
 -python -m venv chatbot_env
 
 
-2.** Ortamı aktifleştir**
+2. **Ortamı aktifleştir**
 
 -chatbot_env\Scripts\activate  # Windows
 
