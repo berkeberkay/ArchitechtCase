@@ -76,7 +76,7 @@ Bu proje, araç finansmanı ön başvurusu ve SSS için chatbot API’sidir. Kul
 - python db_setup.py
 
 
-5.**Ollama sunucusunu başlat**
+5. **Ollama sunucusunu başlat**
 
 - ollama serve
 
